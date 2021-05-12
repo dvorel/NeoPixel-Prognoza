@@ -341,7 +341,7 @@ void setup()
   Serial.begin(9600);
     
   strip.begin();
-    strip.setBrightness(20);
+    strip.setBrightness(50);
     strip.show();
 
     wifiFrame();
